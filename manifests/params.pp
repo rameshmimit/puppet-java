@@ -8,7 +8,7 @@ class java::params {
         $sunjava6_packages = ['jdk-6u5-linux-x64.rpm','jre-6u5-linux-x64.rpm']
         $sunjava7_packages = ['jdk-7u5-linux-x64.rpm','jre-7u5-linux-x64.rpm']
         $sunjava8_packages = ['jdk-8u5-linux-x64.rpm','jre-8u5-linux-x64.rpm']
-        $openjdk_packages = ['java-1.6.0-openjdk.x86_64','java-1.6.0-openjdk-devel.x86_64']
+        $openjdk6_packages = ['java-1.6.0-openjdk.x86_64','java-1.6.0-openjdk-devel.x86_64']
         $openjdk7_packages = ['java-1.7.0-openjdk.x86_64','java-1.7.0-openjdk-devel.x86_64']
     }
     'Debian':{
