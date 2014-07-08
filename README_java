@@ -1,0 +1,36 @@
+Puppet Java Module
+===================
+
+Introduction
+-----------
+
+Pupept module to install java
+
+## Usage ##
+
+Install sun java or openjdk packages
+
+class { java:
+ java_package_type = 'sun',
+ java_version = '6',
+}
+
+Notes
+-----
+
+This module is written only for redhat based systems.
+Module is written primarily for CentOS/Redhat-6, java-6 installation is only supported for CentOS/Redhat-5 version.
+
+Requirements: 
+------------
+
+* puppet-stdlib module is required to get this module working
+* example42-yum module is required to get this module working
+
+
+TODO
+----
+
+* Improve the documentation
+* Make it more generic in order to support future versions.
+* Module should be valid for unsupported OS's as well.
